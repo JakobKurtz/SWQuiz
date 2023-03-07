@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swquiz.questionA">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swquiz.questionA">
    <children>
-      <Label layoutX="200.0" layoutY="37.0" prefHeight="43.0" prefWidth="199.0" text="Put Question here" textAlignment="CENTER">
+      <Label layoutX="200.0" layoutY="37.0" prefHeight="43.0" prefWidth="199.0" text="What does Darth Nihilus feed on?" textAlignment="CENTER">
          <font>
             <Font name="Bauhaus 93" size="24.0" />
          </font>
@@ -20,9 +17,9 @@
             <Image url="@../../../Assets/QUIZ.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="122.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#AnsA1" prefHeight="35.0" prefWidth="95.0" text="Ans1" />
-      <Button layoutX="400.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#AnsA2" prefHeight="35.0" prefWidth="95.0" text="Ans2" />
-      <Button layoutX="122.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#AnsA3" prefHeight="35.0" prefWidth="95.0" text="Ans3" />
-      <Button layoutX="400.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#AnsA4" prefHeight="35.0" prefWidth="95.0" text="Ans4" />
+      <Button fx:id="AnsA1" layoutX="122.0" layoutY="252.0" mnemonicParsing="false" onAction="#AnsA1" onMouseClicked="#AnsA1" prefHeight="35.0" prefWidth="95.0" text="Ans1" />
+      <Button layoutX="400.0" layoutY="252.0" mnemonicParsing="false" onAction="#AnsA2" onMouseClicked="#AnsA2" prefHeight="35.0" prefWidth="95.0" text="Ans2" />
+      <Button layoutX="122.0" layoutY="326.0" mnemonicParsing="false" onAction="#AnsA3" onMouseClicked="#AnsA3" prefHeight="35.0" prefWidth="95.0" text="Ans3" />
+      <Button layoutX="400.0" layoutY="326.0" mnemonicParsing="false" onAction="#AnsA4" onMouseClicked="#AnsA4" prefHeight="35.0" prefWidth="95.0" text="Ans4" />
    </children>
 </AnchorPane>
