@@ -31,19 +31,39 @@ public class questionn {
 
 
     public void AnsN1(MouseEvent mouseEvent) {
-
+        picN.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsN1.setVisible(false);
+        AnsN2.setVisible(false);
+        AnsN3.setVisible(false);
+        AnsN4.setVisible(false);
     }
 
     public void AnsN2(MouseEvent mouseEvent) {
-
+        picN.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsN1.setVisible(false);
+        AnsN2.setVisible(false);
+        AnsN3.setVisible(false);
+        AnsN4.setVisible(false);
     }
 
     public void AnsN3(MouseEvent mouseEvent) {
-
+        picN.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsN1.setVisible(false);
+        AnsN2.setVisible(false);
+        AnsN3.setVisible(false);
+        AnsN4.setVisible(false);
     }
 
     public void AnsN4(MouseEvent mouseEvent) {
-
+        picN.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsN1.setVisible(false);
+        AnsN2.setVisible(false);
+        AnsN3.setVisible(false);
+        AnsN4.setVisible(false);
     }
     @FXML
     public void nextQuestion(MouseEvent event) throws IOException {

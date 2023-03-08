@@ -30,19 +30,39 @@ public class questionG {
     Image wrong = new Image("C:\\class folder\\Year 2\\Q1\\New folder\\SWQuiz\\src\\main\\resources\\Assets\\wrog.png");
 
     public void AnsG1(MouseEvent mouseEvent) {
-
+        picG.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsG1.setVisible(false);
+        AnsG2.setVisible(false);
+        AnsG3.setVisible(false);
+        AnsG4.setVisible(false);
     }
 
     public void AnsG2(MouseEvent mouseEvent) {
-
+        picG.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsG1.setVisible(false);
+        AnsG2.setVisible(false);
+        AnsG3.setVisible(false);
+        AnsG4.setVisible(false);
     }
 
     public void AnsG3(MouseEvent mouseEvent) {
-
+        picG.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsG1.setVisible(false);
+        AnsG2.setVisible(false);
+        AnsG3.setVisible(false);
+        AnsG4.setVisible(false);
     }
 
     public void AnsG4(MouseEvent mouseEvent) {
-
+        picG.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsG1.setVisible(false);
+        AnsG2.setVisible(false);
+        AnsG3.setVisible(false);
+        AnsG4.setVisible(false);
     }
     @FXML
     public void nextQuestion(MouseEvent event) throws IOException {

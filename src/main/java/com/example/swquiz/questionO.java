@@ -30,19 +30,39 @@ public class questionO {
     Image wrong = new Image("C:\\class folder\\Year 2\\Q1\\New folder\\SWQuiz\\src\\main\\resources\\Assets\\wrog.png");
 
     public void AnsO1(MouseEvent mouseEvent) {
-
+        picO.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsO1.setVisible(false);
+        AnsO2.setVisible(false);
+        AnsO3.setVisible(false);
+        AnsO4.setVisible(false);
     }
 
     public void AnsO2(MouseEvent mouseEvent) {
-
+        picO.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsO1.setVisible(false);
+        AnsO2.setVisible(false);
+        AnsO3.setVisible(false);
+        AnsO4.setVisible(false);
     }
 
     public void AnsO3(MouseEvent mouseEvent) {
-
+        picO.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsO1.setVisible(false);
+        AnsO2.setVisible(false);
+        AnsO3.setVisible(false);
+        AnsO4.setVisible(false);
     }
 
     public void AnsO4(MouseEvent mouseEvent) {
-
+        picO.setImage(correct);
+        //System.out.println(picA.getImage().getUrl());
+        AnsO1.setVisible(false);
+        AnsO2.setVisible(false);
+        AnsO3.setVisible(false);
+        AnsO4.setVisible(false);
     }
 
     @FXML
