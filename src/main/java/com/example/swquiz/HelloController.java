@@ -13,8 +13,8 @@ public class HelloController {
     @FXML
     protected void startQuiz(MouseEvent event) throws IOException {
 
-        ///System.out.println("works");
-        ChangeScene.changeScene(event, "QuestionA.fxml");
+        //HelloApplication.sh.activate("questionA.fxml");
+        ChangeScene.changeScene(event,"questionA.fxml");
     }
 
     @FXML

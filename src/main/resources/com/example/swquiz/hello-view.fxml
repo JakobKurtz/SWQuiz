@@ -11,7 +11,7 @@
 
     </padding>
 
-   <Button fx:id="test" mnemonicParsing="false" onAction="#test" text="StarWars Trivia" />
+   <Button fx:id="test" mnemonicParsing="false" onAction="#test" onMouseClicked="#startQuiz" text="StarWars Trivia" />
    <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#startQuiz" pickOnBounds="true" preserveRatio="true">
       <image>
          <Image url="@../../../Assets/QUIZ.jpg" />

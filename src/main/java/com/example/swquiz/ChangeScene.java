@@ -19,7 +19,7 @@ public class ChangeScene {
 
     public static void changeScene(MouseEvent event, String strFXMLFileName) throws IOException {
 
-        URL url = new File("src/main/resources/com/example/javafx/" + strFXMLFileName).toURI().toURL();
+        URL url = new File("src/main/resources/com/example/swquiz/" + strFXMLFileName).toURI().toURL();
         Parent root = FXMLLoader.load(url);
 
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
