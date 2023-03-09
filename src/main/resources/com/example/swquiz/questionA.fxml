@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swquiz.questionA">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swquiz.questionA">
    <children>
-      <Label layoutX="200.0" layoutY="37.0" prefHeight="43.0" prefWidth="199.0" text="What does Darth Nihilus feed on?" textAlignment="CENTER">
+      <Label alignment="CENTER" layoutX="65.0" layoutY="37.0" prefHeight="43.0" prefWidth="473.0" text="What does Darth Nihilus feed on?" textAlignment="CENTER">
          <font>
             <Font name="Bauhaus 93" size="24.0" />
          </font>
@@ -18,10 +18,10 @@
 
          </image>
       </ImageView>
-      <Button fx:id="AnsA1" layoutX="122.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#AnsA1" prefHeight="35.0" prefWidth="95.0" text="Ans1" />
-      <Button fx:id="AnsA2" layoutX="400.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#AnsA2" prefHeight="35.0" prefWidth="95.0" text="Ans2" />
-      <Button fx:id="AnsA3" layoutX="122.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#AnsA3" prefHeight="35.0" prefWidth="95.0" text="Ans3" />
-      <Button fx:id="AnsA4" layoutX="400.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#AnsA4" prefHeight="35.0" prefWidth="95.0" text="Ans4" />
+      <Button fx:id="AnsA1" layoutX="122.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#AnsA1" prefHeight="35.0" prefWidth="116.0" text="Food" />
+      <Button fx:id="AnsA2" layoutX="379.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#AnsA2" prefHeight="35.0" prefWidth="116.0" text="The Living Force" />
+      <Button fx:id="AnsA3" layoutX="122.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#AnsA3" prefHeight="35.0" prefWidth="116.0" text="Blood" />
+      <Button fx:id="AnsA4" layoutX="379.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#AnsA4" prefHeight="35.0" prefWidth="116.0" text="Dark Matter" />
       <Button fx:id="s" layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#nextQuestion" text="next Question" />
    </children>
 </AnchorPane>

@@ -28,7 +28,7 @@ public class questionK {
 
     Image wrong = new Image("C:\\class folder\\Year 2\\Q1\\New folder\\SWQuiz\\src\\main\\resources\\Assets\\wrog.png");
     public void AnsK1(MouseEvent mouseEvent) {
-        picK.setImage(correct);
+        picK.setImage(wrong);
         //System.out.println(picA.getImage().getUrl());
         AnsK1.setVisible(false);
         AnsK2.setVisible(false);
@@ -37,7 +37,7 @@ public class questionK {
     }
 
     public void AnsK2(MouseEvent mouseEvent) {
-        picK.setImage(correct);
+        picK.setImage(wrong);
         //System.out.println(picA.getImage().getUrl());
         AnsK1.setVisible(false);
         AnsK2.setVisible(false);
@@ -46,7 +46,7 @@ public class questionK {
     }
 
     public void AnsK3(MouseEvent mouseEvent) {
-        picK.setImage(correct);
+        picK.setImage(wrong);
         //System.out.println(picA.getImage().getUrl());
         AnsK1.setVisible(false);
         AnsK2.setVisible(false);

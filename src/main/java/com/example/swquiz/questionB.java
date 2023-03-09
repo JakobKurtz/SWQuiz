@@ -10,6 +10,7 @@ import javafx.scene.input.MouseEvent;
 import java.io.IOException;
 
 public class questionB {
+    //ans3 is correct
 
     @FXML
     Button AnsB1;
@@ -32,7 +33,7 @@ public class questionB {
 
     @FXML
     public void AnsB1(MouseEvent event) {
-        picB.setImage(correct);
+        picB.setImage(wrong);
         //System.out.println(picA.getImage().getUrl());
         AnsB1.setVisible(false);
         AnsB2.setVisible(false);
@@ -50,7 +51,7 @@ public class questionB {
     }
     @FXML
     public void AnsB3(MouseEvent event) {
-        picB.setImage(wrong);
+        picB.setImage(correct);
 
         AnsB1.setVisible(false);
         AnsB2.setVisible(false);

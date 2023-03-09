@@ -39,7 +39,7 @@ public class questionI {
     }
 
     public void AnsI2(MouseEvent mouseEvent) {
-        picI.setImage(correct);
+        picI.setImage(wrong);
         //System.out.println(picA.getImage().getUrl());
         AnsI1.setVisible(false);
         AnsI2.setVisible(false);
@@ -48,7 +48,7 @@ public class questionI {
     }
 
     public void AnsI3(MouseEvent mouseEvent) {
-        picI.setImage(correct);
+        picI.setImage(wrong);
         //System.out.println(picA.getImage().getUrl());
         AnsI1.setVisible(false);
         AnsI2.setVisible(false);
@@ -57,7 +57,7 @@ public class questionI {
     }
 
     public void AnsI4(MouseEvent mouseEvent) {
-        picI.setImage(correct);
+        picI.setImage(wrong);
         //System.out.println(picA.getImage().getUrl());
         AnsI1.setVisible(false);
         AnsI2.setVisible(false);
